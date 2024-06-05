@@ -1,4 +1,5 @@
 ## Hi there 👋
 
-![Node Current](https://img.shields.io/node/v/:packageName)
+![Node LTS (with tag)](https://img.shields.io/node/v-lts/:packageName/:tag)
+
 
