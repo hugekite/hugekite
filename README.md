@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=Cylinder&color=auto&height=150&section=header&text=Developer%KIMTAEYEON&fontSize=60&desc=Hi%this%is%Taey's%git%profile)
+![header](https://capsule-render.vercel.app/api?type=soft&color=auto&height=150&section=header&text=Developer%KIMTAEYEON&fontSize=60&desc=Hi%this%is%Taey's%git%profile)
 <h1 align="center">Hi 👋, I'm KimTaeyeon.</h1>
 <h3 align="center">Frontend developer with React/Vue , Backend developer with node.js</h3>
 
