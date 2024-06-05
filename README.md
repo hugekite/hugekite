@@ -1,3 +1,3 @@
 ## Hi there 👋
 
-![NODE](https://img.shields.io/badge/:badgeContent)
+![Node](https://img.shields.io/badge/:badgeContent)
