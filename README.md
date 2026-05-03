@@ -212,9 +212,30 @@ Handled backend process failures caused by memory pressure and runtime errors.
 
 ## GitHub Overview
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hugekite&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=4" />
-</p>
+<table>
+<tr>
+<td width="50%">
+
+### Backend Focus
+
+- Node.js / NestJS / TypeScript
+- Transaction-safe service logic
+- Redis-based high-concurrency processing
+- WebSocket streaming architecture
+
+</td>
+<td width="50%">
+
+### Operations Focus
+
+- AWS EC2 / S3
+- PM2 process management
+- Jenkins deployment pipeline
+- Ubuntu Linux troubleshooting
+
+</td>
+</tr>
+</table>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hugekite&theme=tokyonight&hide_border=true" height="180"/>
