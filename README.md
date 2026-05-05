@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Backend+Engineer+%26+System+Architect;Node.js+%7C+NestJS+%7C+TypeScript;Transaction+Management+%7C+Low+Latency+%7C+DevOps;Building+Reliable+Systems+for+Real+Services" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=800&lines=Backend+Engineer+%26+System+Architect;Node.js+%7C+NestJS+%7C+TypeScript;Distributed+Transactions+%7C+High+Concurrency;Building+Reliable+Systems+for+Real+Services" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Email-ktyeon92%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://hugekite.github.io/myInfo.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Interactive%20Portfolio-2563EB?style=for-the-badge&logo=githubpages&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Portfolio-Interactive%20System%20Metrics-2563EB?style=for-the-badge&logo=githubpages&logoColor=white"/>
   </a>
 </p>
 
@@ -24,7 +24,7 @@ I am a backend engineer focused on building reliable systems beyond simple featu
 My main interests are **data integrity**, **transaction-safe backend architecture**, **low-latency communication**, and **stable production operations**.  
 I have experience designing and operating backend systems for metaverse, digital twin, AI streaming, game reward, and closed-network industrial environments.
 
-I focus on backend systems that remain stable even when failures occur in real production environments.
+Operating primarily in the Node.js and NestJS ecosystem, I actively apply Core OOP Principles and Layered Architecture patterns. I focus on backend systems that remain stable even when unexpected failures occur in real production environments by designing fault-tolerant architectures (e.g., Circuit Breakers, Message Queues).
 
 ---
 
@@ -39,12 +39,13 @@ I focus on backend systems that remain stable even when failures occur in real p
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
 </p>
 
-### Database & Cache
+### Database, Cache & Message Broker
 
 <p>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge"/>
 </p>
 
@@ -62,9 +63,9 @@ I focus on backend systems that remain stable even when failures occur in real p
 
 <p>
   <img src="https://img.shields.io/badge/Transaction Management-0F172A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/WebSocket Streaming-2563EB?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/TCP%2FIP Socket Communication-1E40AF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Low Latency Architecture-0F766E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Fault Tolerance & MSA-2563EB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/WebSocket Streaming-0F766E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Zero--Trust Security-1E40AF?style=for-the-badge"/>
 </p>
 
 ---
@@ -75,11 +76,11 @@ I focus on backend systems that remain stable even when failures occur in real p
 <tr>
 <td width="50%">
 
-### Data Integrity
+### Data Integrity & Rollback
 
 Prevented data corruption during multi-table updates involving parcels, ownership, inventory, and user rewards.
 
-Applied **atomic transaction rollback** using TypeORM QueryRunner to keep data consistent even when network or server failures occur.
+Applied **atomic transaction rollback (Compensating Transaction)** using TypeORM QueryRunner to keep data consistent even when network or server failures occur.
 
 </td>
 <td width="50%">
@@ -88,7 +89,7 @@ Applied **atomic transaction rollback** using TypeORM QueryRunner to keep data c
 
 Improved response delay caused by sequential REST-based AI audio processing.
 
-Migrated the flow to **WebSocket + Smart VAD based real-time bidirectional streaming**, reducing end-to-end delay.
+Migrated the flow to **WebSocket + Smart VAD based real-time bidirectional streaming**, reducing end-to-end delay drastically.
 
 </td>
 </tr>
@@ -96,20 +97,20 @@ Migrated the flow to **WebSocket + Smart VAD based real-time bidirectional strea
 <tr>
 <td width="50%">
 
-### High Concurrency
+### High Concurrency Control
 
 Resolved RDBMS Index Scan I/O bottlenecks during real-time active-user ranking calculation.
 
-Introduced **Redis Sorted Set (ZADD)** based in-memory ranking architecture for faster concurrent processing.
+Introduced **Redis Sorted Set (ZADD)** based in-memory ranking architecture. Applied **Pessimistic Write Locks** to defend against double-spending and multiple-reward exploits.
 
 </td>
 <td width="50%">
 
-### Fault Tolerance
+### Fault Tolerance & Resilience
 
 Designed backend operation with failure scenarios in mind.
 
-Applied **PM2 cluster-based auto-healing** to automatically restart failed processes and reduce service interruption.
+Applied **PM2 cluster-based auto-healing** to automatically restart failed processes. Designed **Circuit Breaker Patterns** to isolate external API (Payment) timeouts and prevent internal thread exhaustion.
 
 </td>
 </tr>
@@ -121,7 +122,7 @@ Applied **PM2 cluster-based auto-healing** to automatically restart failed proce
 
 Built server-side reward logic for probability-based gacha systems.
 
-Handled user-state validation, secure server-side random branching, and transactional reward distribution.
+Handled user-state validation, secure server-side random branching, and transactional reward distribution to prevent client-side manipulation.
 
 </td>
 <td width="50%">
@@ -130,7 +131,7 @@ Handled user-state validation, secure server-side random branching, and transact
 
 Designed communication flow for environments where external networks are restricted.
 
-Implemented **TCP/IP socket communication rules** and mapped data between C# control applications and Node.js servers.
+Implemented **TCP/IP socket communication rules** and mapped data between C# control applications and Node.js servers for IoT integration.
 
 </td>
 </tr>
@@ -145,7 +146,7 @@ Implemented **TCP/IP socket communication rules** and mapped data between C# con
 - Designed backend logic for virtual economy systems, including currency, item rewards, parcels, and inventory ownership.
 - Refactored legacy Node.js code into a structured NestJS architecture using Controller, Service, and DTO layers.
 - Standardized request/response DTOs to improve communication consistency with Unreal Engine clients.
-- Built common logging and exception-handling structures for better maintainability.
+- Applied **Pessimistic Locking** to prevent race conditions during concurrent API requests, ensuring ledger-level data accuracy.
 - Improved transaction flow to prevent partial reward distribution and inventory inconsistency.
 
 ---
@@ -170,25 +171,26 @@ Implemented **TCP/IP socket communication rules** and mapped data between C# con
 
 ## DevSecOps & Troubleshooting
 
-### DB Connection Pool Leak
+### DB Connection Pool Leak & Deadlock Avoidance
 
 Identified active connection leakage caused by unreleased transactions in specific service logic.
 
-- Forced transaction release in finally blocks
-- Tuned connection timeout settings
-- Improved QueryRunner lifecycle management
-
----
+- Forced transaction release in finally blocks and tuned connection timeout settings.
+- Reordered business queries consistently to prevent circular wait (Deadlock prevention).
 
 ### Concurrent Update Collision
 
 Resolved deadlock issues caused by multiple reward APIs updating the same row concurrently.
 
-- Reordered business queries consistently
-- Reduced unnecessary lock scope
-- Applied transaction-safe reward processing flow
+- Reduced unnecessary lock scope to improve overall TPS capability.
+- Applied transaction-safe reward processing flow using precise DB locking strategies.
 
----
+### Zero-Trust Auth & Token Hijacking Defense
+
+Secured the authentication flow against XSS and Token theft.
+
+- Migrated JWT storage from LocalStorage to `HttpOnly` & `Secure` Cookies.
+- Implemented Refresh Token Rotation (RTR) to detect token reuse and immediately revoke compromised session chains.
 
 ### Jenkins Pipeline Breakdown
 
@@ -198,15 +200,12 @@ Debugged SSH authentication failures during deployment on Ubuntu server environm
 - Stabilized PM2 deployment script execution
 - Improved deployment script idempotency to reduce repeated failure risk
 
----
-
 ### Production Process Recovery
 
 Handled backend process failures caused by memory pressure and runtime errors.
 
-- Used PM2 process monitoring
-- Applied automatic restart strategy
-- Reviewed logs to identify failure points and improve recovery flow
+- Used PM2 process monitoring and applied automatic restart strategy.
+- Reviewed logs to identify failure points and improve recovery flow.
 
 ---
 
@@ -229,6 +228,6 @@ const engineeringPrinciples = {
   reliability: "Design for failure before production failure happens.",
   integrity: "Protect data consistency with transaction-safe architecture.",
   latency: "Reduce unnecessary waiting time in every communication flow.",
-  operation: "Build systems that can be monitored, recovered, and maintained.",
+  resilience: "Isolate external failures using Circuit Breakers and Message Queues.",
   growth: "Refactor legacy systems without stopping real services.",
 };
